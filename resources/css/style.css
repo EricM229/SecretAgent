@@ -1,0 +1,136 @@
+html {
+  font-size: 18px;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: .66rem 0 .66rem 0.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.banner {
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.arrivals {
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  padding: 2rem 3rem;
+  background-color: black;
+  color: white;
+}
+
+.arrivals span {
+  font-weight: bold;
+  padding-top: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.arrivals p {
+  margin: 0.25rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.item {
+  width: 30%;
+}
+
+.item-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+}
+
+.item-image img {
+  max-width: 8rem;
+}
+
+.item-name span {
+  display: block;
+  padding: 0.5rem;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.info-item {
+  width: 35%;
+}
+
+.title {
+  display: flex;
+  background-color: black;
+  justify-content: flex-start;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+.info-content {
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 5rem 0;
+  margin-top: 4rem;
+  background-color: black;
+  color: white;
+}
